@@ -40,7 +40,7 @@ type NetworkConfiguration = {
 },
 {
     chainId: 0xaa36a7,
-    nftAddress: "0x96010225F2C3d895a82DC263666fbFd01235E5Fd",
+    nftAddress: "0x77c15E872ddf5Cc392c01B9cC9c6d227D75D9447",
     params: [{
         chainId: '0xaa36a7',
         rpcUrls: ["https://sepolia.infura.io/v3/2f18ffbdd979436fbc7495b813788fbb"],
@@ -55,7 +55,7 @@ type NetworkConfiguration = {
 }
 ]
 export const configuration = ()=> confs[selection]
-const selection = 0
+const selection = 1
 export const rpcUrl = ()=>{
     return confs[selection].params[0].rpcUrls[0];
 }
